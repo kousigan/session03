@@ -1,0 +1,33 @@
+
+.page {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+ 
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    background: #384246;
+    border-radius: 5px;
+    display: table;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    display: table-cell;
+    float: left;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #797979;
+    text-transform:capitalize;
+}
+a.active{
+    color: #fff;
+}

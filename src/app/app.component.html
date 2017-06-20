@@ -1,3 +1,15 @@
-<h1>
-  {{title}}
-</h1>
+
+<div  class="page">
+<ul>
+  <li><a routerLink='/index' routerLinkActive="active">home</a></li>
+  <li><a routerLink='/about' routerLinkActive="active">about</a></li>
+   <li><a routerLink='/page3' routerLinkActive="active">works</a></li>
+   <li><a routerLink='/page4' routerLinkActive="active">contact</a></li>
+   
+</ul>
+
+
+  <router-outlet></router-outlet>
+  
+</div>
+<feapp-footer></feapp-footer>
